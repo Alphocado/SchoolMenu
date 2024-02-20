@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".paging-link").click(function(e){console.log("click"),e.preventDefault();var a=$(this).text().toLowerCase();$(".switch-page").addClass("hidden"),$("#switch-page-"+a).removeClass("hidden"),$(".paging-link").removeClass("active"),$(this).addClass("active")})});
